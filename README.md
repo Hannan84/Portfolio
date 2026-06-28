@@ -1,8 +1,8 @@
-# 🚀 Larafolio — Laravel Full-Stack Portfolio System
+# 🚀 My Portfolio — Laravel Full-Stack Portfolio System
 
 <img src='./proj-img/screenshot-portfolio.png' />
 
-**Larafolio** is a full-stack portfolio management system built with **Laravel**.  
+**My Portfolio** is a full-stack portfolio management system built with **Laravel**.  
 It includes authentication, an admin panel, CRUD functionality for projects and skills, and an interactive board to visualize and manage your data — all designed for developers who want a professional, dynamic portfolio.
 
 ---
@@ -19,10 +19,9 @@ It includes authentication, an admin panel, CRUD functionality for projects and 
 
 - ⚙️ **CRUD Operations**
   - Create, Read, Update, Delete projects
-  - Create, Read, Update, Delete skills
 
 - 🧱 **Board View**
-  - Organized display for Projects and Skills
+  - Organized display for Projects
   - Quick access for editing or managing data
 
 - 💅 **Responsive UI**
@@ -34,7 +33,7 @@ It includes authentication, an admin panel, CRUD functionality for projects and 
 
 | Layer | Tech                                                |
 |-------|-----------------------------------------------------|
-| Backend | Laravel 9+                                          |
+| Backend | Laravel 12                                          |
 | Frontend | Blade / TailwindCSS / JS                            |
 | Database | MySQL                                               |
 | Authentication | Laravel Breeze / Sanctum                            |
@@ -47,8 +46,8 @@ It includes authentication, an admin panel, CRUD functionality for projects and 
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/Larafolio.git
-cd Larafolio
+git clone https://github.com/Hannan84/Portfolio.git
+cd Portfolio
 ````
 
 ### 2️⃣ Install Dependencies
@@ -96,7 +95,7 @@ Now open your browser at **[http://localhost:8000](http://localhost:8000)** 🎉
 ## 🧑‍💻 Admin Credentials (Demo)
 
 ```
-Email: admin@example.com
+Email: admin@admin.com
 Password: password
 ```
 
@@ -107,7 +106,7 @@ Password: password
 ## 📂 Project Structure
 
 ```
-Larafolio/
+Portfolio/
 ├── app/
 │   ├── Http/
 │   ├── Models/
@@ -144,5 +143,5 @@ This project is licensed under the **MIT License** — feel free to use and modi
 
 ## 🌟 Acknowledgments
 
-Built with ❤️ by **Ahmed-Hamdy101**
+Built with ❤️ by **Hannan Sarkar**
 
