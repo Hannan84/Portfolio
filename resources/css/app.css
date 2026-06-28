@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+    body {
+        @apply bg-portfolio-bg text-portfolio-text font-sans antialiased;
+    }
+}
+
+@layer utilities {
+    .animation-delay-2000 {
+        animation-delay: 2s;
+    }
+    .animation-delay-4000 {
+        animation-delay: 4s;
+    }
+}
+
+.login-image {
+    @apply bg-cover bg-center min-h-screen flex items-center justify-center;
+    background-image: url('/public/login.png'); /* public/ is auto-resolved */
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #0a1628; 
+}
+::-webkit-scrollbar-thumb {
+    background: #111f33; 
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #1e293b; 
+}
+
+/* Timeline specific styles */
+.timeline-dot::before {
+    content: '';
+    position: absolute;
+    left: -29px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #00d4aa;
+    box-shadow: 0 0 0 4px rgba(0, 212, 170, 0.2);
+}
+
+.timeline-line::after {
+    content: '';
+    position: absolute;
+    left: -24px;
+    top: 24px;
+    bottom: -32px;
+    width: 2px;
+    background-color: #1e293b;
+}
+
+/* Last timeline item shouldn't have a line */
+.timeline-item:last-child .timeline-line::after {
+    display: none;
+}
